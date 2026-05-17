@@ -58,8 +58,8 @@ const Header = ({ authLoading, authUser, onLogout, onSearch, onCategoryChange, s
         <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-[auto_minmax(320px,1fr)_auto]">
           {/* Logo */}
           <div className="flex items-center justify-start">
-            <Link to="/" className="text-2xl font-bold md:text-left">
-              AHSAN E SALES LTD
+            <Link to="/" className="flex items-center">
+              <img src="/logo.png" alt="AHSAN E SALES LTD" className="h-12 w-auto md:h-14" />
             </Link>
           </div>
 
