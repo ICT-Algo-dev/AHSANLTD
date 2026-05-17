@@ -40,6 +40,8 @@ app.use("/api/auth", authRoutes);
 // React build serve karo
 // const distPath = path.resolve(__dirname, "../../dist");
 const distPath = path.resolve(__dirname, "../../../dist");
+console.log("__dirname:", __dirname);
+console.log("distPath:", distPath);
 app.use(express.static(distPath));
 
 // Koi bhi unknown route React ko de do
