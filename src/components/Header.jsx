@@ -59,7 +59,7 @@ const Header = ({ authLoading, authUser, onLogout, onSearch, onCategoryChange, s
           {/* Logo */}
           <div className="flex items-center justify-start">
             <Link to="/" className="flex items-center">
-              <img src="/logo.png" alt="AHSAN E SALES LTD" className="h-24 w-auto md:h-28" />
+              <img src="/logo.png" alt="AHSAN E SALES LTD" className="h-12 w-auto md:h-16" />
             </Link>
           </div>
 
