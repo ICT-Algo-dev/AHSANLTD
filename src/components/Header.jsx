@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 const DEFAULT_CATEGORIES = [
   { value: 'all', label: 'All' },
-  { value: 'pet-supplies', label: 'Pet Supplies' },
-  { value: 'sports-outdoor', label: 'Sports and Outdoor' },
-  { value: 'home-kitchen', label: 'Home and Kitchen' },
-  { value: 'beauty-personal-care', label: 'Beauty and Personal Care' },
-  { value: 'automotive', label: 'Automotive Parts & Accessories' },
-  { value: 'household-health-baby', label: 'Household, Health & Baby Care' },
-  { value: 'tools-home-improvement', label: 'Tools and Home Improvement' },
+  // { value: 'pet-supplies', label: 'Pet Supplies' },
+  // { value: 'sports-outdoor', label: 'Sports and Outdoor' },
+  // { value: 'home-kitchen', label: 'Home and Kitchen' },
+  // { value: 'beauty-personal-care', label: 'Beauty And Personal Care' },
+  // { value: 'automotive', label: 'Automotive Parts & Accessories' },
+  // { value: 'household-health-baby', label: 'Household, Health & Baby Care' },
+  // { value: 'tools-home-improvement', label: 'Tools and Home Improvement' },
 ];
 
 const Header = ({ authLoading, authUser, onLogout, onSearch, onCategoryChange, selectedCategory }) => {

@@ -38,7 +38,7 @@ const ProductCard = ({ product }) => {
           ) : null}
         </div>
 
-        <div className="mt-4 h-[124px] space-y-2">
+        <div className="mt-4 space-y-2">
           <div className="flex items-center gap-2 text-slate-500 text-sm">
             <span className={hasDiscount ? 'font-semibold text-slate-900' : 'font-semibold text-slate-900'}>£{salePrice.toFixed(2)}</span>
             {hasDiscount ? (
@@ -46,7 +46,7 @@ const ProductCard = ({ product }) => {
             ) : null}
           </div>
 
-          {hasDiscount ? (
+          {/* {hasDiscount ? (
             <div className="inline-flex items-center gap-2 rounded-full bg-rose-500/10 px-3 py-2 text-sm font-semibold text-rose-700">
               <span className="text-rose-700">£{couponAmount} coupon</span>
             </div>
@@ -56,7 +56,7 @@ const ProductCard = ({ product }) => {
             <p className="text-sm text-slate-700">
               £{salePrice.toFixed(2)} after coupon
             </p>
-          ) : null}
+          ) : null} */}
         </div>
 
         <div className="mt-auto pt-4">

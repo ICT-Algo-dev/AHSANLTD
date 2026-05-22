@@ -3,11 +3,11 @@ import ProductCard from '../components/ProductCard';
 import CategoryBanner from '../components/CategoryBanner';
 
 const FEATURED_CATEGORIES = [
-  { name: 'Beauty & Personal Care', slug: 'beauty-personal-care', image: '/Beauty & Personal Care.jpg' },
-  { name: 'Health & Household', slug: 'household-health-baby', image: '/Health & Household.jpg' },
-  { name: 'Pet Supplies', slug: 'pet-supplies', image: '/Pet Supplies.jpg' },
-  { name: 'Automotives', slug: 'automotive', image: '/Automotives.jpg' },
-  { name: 'Sports & Outdoor', slug: 'sports-outdoor', image: '/Sports & Outdoor.jpg' },
+  { name: 'Beauty & Personal Care', slug: 'Beauty And Personal Care', image: '/Beauty & Personal Care.jpg' },
+  { name: 'Health & Household', slug: 'Health and Household', image: '/Health & Household.jpg' },
+  { name: 'Pet Supplies', slug: 'Pet Supplies', image: '/Pet Supplies.jpg' },
+  { name: 'Automotives', slug: 'Automotives', image: '/Automotives.jpg' },
+  { name: 'Sports & Outdoor', slug: 'Sports and Outdoor', image: '/Sports & Outdoor.jpg' },
 ];
 
 const Home = ({ products, category, searchTerm, loading, error }) => {

@@ -2,8 +2,8 @@ import { motion } from 'motion/react';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 const CATEGORIES = [
-  { name: "Beauty & Personal Care", image: "/Beauty & Personal Care.jpg", rotation: -15, scale: 1, top: '15%', left: '12%' },
-  { name: "Health & Household", image: "/Health & Household.jpg", rotation: 12, scale: 0.9, top: '65%', left: '18%' },
+  { name: "Beauty And Personal Care", image: "/Beauty & Personal Care.jpg", rotation: -15, scale: 1, top: '15%', left: '12%' },
+  { name: "Health and Household", image: "/Health & Household.jpg", rotation: 12, scale: 0.9, top: '65%', left: '18%' },
   { name: "Pet Supplies", image: "/Pet Supplies.jpg", rotation: -8, scale: 0.85, top: '10%', left: '78%' },
   { name: "Automotives", image: "/Automotives.jpg", rotation: 15, scale: 1.05, top: '60%', left: '82%' },
   { name: "Sports & Outdoor", image: "/Sports & Outdoor.jpg", rotation: -5, scale: 0.95, top: '40%', left: '88%' }

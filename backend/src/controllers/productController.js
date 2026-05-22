@@ -118,10 +118,23 @@ export const getProductById = async (req, res) => {
 };
 
 export const createProduct = async (req, res) => {
-  const payload = buildProductPayload(req.body, req.files);
-  const product = await Product.create(payload);
-
-  res.status(201).json(serializeProduct(req, product));
+  try {
+    const payload = buildProductPayload(req.body, req.files);
+    const product = await Product.create(payload);
+    res.status(201).json(serializeProduct(req, product));
+  } catch (err) {
+    // Duplicate key error (e.g. duplicate SKU)
+    if (err.code === 11000) {
+      const field = Object.keys(err.keyValue || {})[0] || "field";
+      const value = err.keyValue?.[field] || "";
+      res.status(409).json({
+        message: `Duplicate ${field}: "${value}" already exists.`,
+      });
+      return;
+    }
+    // Any other error
+    res.status(500).json({ message: err.message || "Internal server error" });
+  }
 };
 
 export const updateProduct = async (req, res) => {

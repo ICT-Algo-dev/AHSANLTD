@@ -110,7 +110,7 @@ const ProductDetails = ({ apiBaseUrl }) => {
               </div>
 
               <div className="rounded-3xl bg-slate-950 p-6 text-white shadow-inner">
-                <p className="text-xs uppercase tracking-[0.24em] text-slate-400">£{product.discountPercentage ? `£${(product.retailPrice - product.salePrice).toFixed(2)} coupon` : '£0 coupon'}</p>
+                {/* <p className="text-xs uppercase tracking-[0.24em] text-slate-400">£{product.discountPercentage ? `£${(product.retailPrice - product.salePrice).toFixed(2)} coupon` : '£0 coupon'}</p> */}
                 <p className="mt-2 text-2xl font-semibold">{product.discountPercentage ? `${product.discountPercentage}% OFF` : 'Deal Price'}</p>
                 <p className="text-4xl font-bold tracking-tight">£{product.salePrice.toFixed(2)}</p>
                 <p className="mt-2 text-sm text-slate-400 line-through">Retail £{Number(product.retailPrice || 0).toFixed(2)}</p>
