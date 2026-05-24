@@ -46,7 +46,7 @@ const Footer = () => {
 
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-[0.15em] text-gray-200 mb-4">Customer Service</h3>
-            <p className="text-sm text-gray-300">+44 7376 705595</p>
+            <p className="text-sm text-gray-300">+44 7828 729275</p>
             <p className="mt-3 text-sm text-gray-400">03 St. Awdry’s Road Barking IG11 7QB</p>
           </div>
         </div>

@@ -38,11 +38,11 @@ const Contact = () => {
 
               <div className="mt-8 rounded-3xl bg-slate-100 p-6">
                 <p className="text-sm text-slate-600">Mon – Thur: 9:00AM to 6:00PM GMT, Fri: 9:00AM to 3:00PM GMT</p>
-                <p className="mt-4 text-base font-semibold text-slate-900">Phone: +44 7376 705595</p>
+                <p className="mt-4 text-base font-semibold text-slate-900">Phone: +44 7828 729275</p>
                 <div className="mt-5 inline-flex items-center gap-3 rounded-3xl border border-slate-300 bg-white px-4 py-4">
                   <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-slate-200 text-slate-700">💬</span>
                   <div>
-                    <p className="text-sm font-semibold text-slate-900">Chat or Call +44 7376 705595</p>
+                    <p className="text-sm font-semibold text-slate-900">Chat or Call +44 7828 729275</p>
                     <p className="text-sm text-slate-500">Our team is available during business hours.</p>
                   </div>
                 </div>

@@ -150,7 +150,7 @@ const About = () => {
             <h3 className="text-[11px] font-bold text-gray-400 uppercase tracking-[0.15em] mb-3">Who We Are</h3>
             <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 leading-tight">The Internet's Best Kept Secret</h2>
             <p className="text-[#333333] leading-relaxed text-[15px]">
-              For over 20 years, AHSAN E SALES LTD has been building a premier online shop and selling some of the most sought after luxury and fashion items to customers around the globe.
+              For over 4 years, AHSAN E SALES LTD has been building a premier online shop and selling some of the most sought after luxury and fashion items to customers around the globe.
             </p>
           </div>
         </div>
